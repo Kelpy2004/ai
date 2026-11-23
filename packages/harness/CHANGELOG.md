@@ -1,5 +1,12 @@
 # @ai-sdk/harness
 
+## 1.0.193
+
+### Patch Changes
+
+- 3334b4d: fix(harness): stop the sandbox channel heartbeat from terminating a connection that is still receiving data, which trapped large bridge events on slow links in a reconnect-and-replay loop
+  - ai@7.0.181
+
 ## 1.0.192
 
 ### Patch Changes
